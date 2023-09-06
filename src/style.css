@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    height: 70px;
+    background-color: brown;
+  }
+  
+  .flex_block{
+    display: flex;
+    height: 80vh;
+  }
+  
+  .flex_block .gauche{
+    flex-basis: 50%;
+    background-color: yellowgreen;
+  }
+  
+  .flex_block .droite{
+    flex-basis: 50%;
+  }
+
+  .canvas_header{
+    width: 100% !important;
+  }
